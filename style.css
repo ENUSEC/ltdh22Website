@@ -3,7 +3,14 @@ body{
   color:#64B5F6;
   text-align:center; 
 }
-
+a{
+	color:#64B5F6;
+	
+}
+a.visited {
+	color:#64B5F6;
+	
+}
 .lineL{
   bottom: -40px;
   position: relative;
