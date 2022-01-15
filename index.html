@@ -1,19 +1,47 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>lltdh2022</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <title>Le Tour Du Hack 2022</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-<!--<div class="lineL parallax-item" data-depth="0.1"></div> -->
-<h1>Le Tour De Hack</h1>
-<!--<div class="lineR parallax-item" data-depth="0.1"></div>-->
+<body style="height:720px">
 
-<h1 id="countDown"></h1>
-<!--<div class="RlineR parallax-item" data-depth="0.1"></div><div class="RlineL parallax-item" data-depth="0.1"></div><h1> -->
-  <script  src="./script.js"></script>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="https://ltdh22.enusec.org/">Le Tour Du Hack 2022</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="https://enusec.org/">ENUSEC</a></li>
+      <li><a href="https://ltdh22.enusec.org/cfs">Call For Sponsors</a></li>
+      <li><a href="https://forms.gle/uRUN31uRTVvt3rPj9">Call For Papers</a></li>
+      <li><a href="https://www.eventbrite.co.uk/e/le-tour-du-hack-2022-tickets-243258912957">Tickets</a></li>
+    </ul>
+  </div>
+</nav>
 
-</body>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+<div class="container"><img src="enuseclogo.png" alt="Enusec Logo" style="width:500px;height:200px;">
+
+<div class="container">
+  <h1 id="headline">Le Tour Du Hack 2022</h1>
+  <div id="countdown">
+  <script src="script.js"></script>
+    <ul class="time">
+      <li><span id="days"></span>Days</li>
+      <li><span id="hours"></span>Hours</li>
+      <li><span id="minutes"></span>Minutes</li>
+      <li><span id="seconds"></span>Seconds</li>
+    </ul>
+  </div>
+</div>
+
 </html>
