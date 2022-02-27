@@ -8,6 +8,18 @@
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	  <link rel="stylesheet" href="style2.css">
+	  <script>
+	  function day2(){
+		document.getElementsByClassName("agendaTable")[0].innerHTML='<div class="ctfDay">\n\t\t\t\t<div class="title0"> Time </div>\n\t\t\t\t<div class="time2"> 9:00 </div>\n\t\t\t\t<div class="time3"> 9:30 </div>\n\t\t\t\t<div class="time4"> 10:00 </div>\n\t\t\t\t<div class="time5"> 10:30 </div>\n\t\t\t\t<div class="time6"> 11:00 </div>\n\t\t\t\t<div class="time7"> 11:30 </div>\n\t\t\t\t<div class="time8"> 12:00 </div>\n\t\t\t\t<div class="time9"> 12:30 </div>\n\t\t\t\t<div class="time10"> 1:00 </div>\n\t\t\t\t<div class="time11"> 1:30 </div>\n\t\t\t\t<div class="time12"> 2:00 </div>\n\t\t\t\t<div class="time13"> 2:30 </div>\n\t\t\t\t<div class="time14"> 3:00 </div>\n\t\t\t\t<div class="time15"> 3:30 </div>\n\t\t\t\t<div class="time16"> 4:00 </div>\n\t\t\t\t<div class="time17"> 4:30 </div>\n\t\t\t\t\n\t\t\t\t<div class="title1"> ctfDay </div>\n\t\t\t\t<div class="ctfintro">intro</div><div class="ctfing0">CTF</div><div class="lunch">Lunch</div><div class="ctfing1">CTF</div><div class="prizes0">present prizes</div></div>';
+		document.getElementsByClassName("changebutton")[0].innerHTML="day1";
+		document.getElementsByClassName("changebutton")[0].setAttribute( "onClick","day1()");
+	  }
+	  function day1(){
+	    document.getElementsByClassName("agendaTable")[0].innerHTML='<div class="confranceDay">\n\t\t\t\t<div class="title0"> Time </div>\n\t\t\t\t<div class="time2"> 9:00 </div>\n\t\t\t\t<div class="time3"> 9:30 </div>\n\t\t\t\t<div class="time4"> 10:00 </div>\n\t\t\t\t<div class="time5"> 10:30 </div>\n\t\t\t\t<div class="time6"> 11:00 </div>\n\t\t\t\t<div class="time7"> 11:30 </div>\n\t\t\t\t<div class="time8"> 12:00 </div>\n\t\t\t\t<div class="time9"> 12:30 </div>\n\t\t\t\t<div class="time10"> 1:00 </div>\n\t\t\t\t<div class="time11"> 1:30 </div>\n\t\t\t\t<div class="time12"> 2:00 </div>\n\t\t\t\t<div class="time13"> 2:30 </div>\n\t\t\t\t<div class="time14"> 3:00 </div>\n\t\t\t\t<div class="time15"> 3:30 </div>\n\t\t\t\t<div class="time16"> 4:00 </div>\n\t\t\t\t<div class="time17"> 4:30 </div>\n\t\t\t\t<div class="time18"> 5:00 </div>\n\t\t\t\t<div class="time19"> 5:30+ </div>\n\t\t\t\t<div class="title1"> track1 </div>\n\t\t\t\t<div class="title2"> track2 </div>\n\t\t\t\t<div class="before0"> welcome and arive at craiglochart</div>\n\t\t\t\t<div class="keynote1"> keynote speaker</div>\n\t\t\t\t<div class="talk1a"> talks</div>\n\t\t\t\t<div class="lunch1a"> lunch</div>\n\t\t\t\t<div class="lunch1b"> panel discussion </div>\n\t\t\t\t<div class="talk1b"> talks </div>\n\t\t\t\t\n\t\t\t\t<div class="talk2a"> talks</div>\n\t\t\t\t<div class="lunch2a"> panel discussion</div>\n\t\t\t\t<div class="lunch2b"> lunch</div>\n\t\t\t\t<div class="talk2b"> talks</div>\n\t\t\t\t<div class="keynote2"> keynote speaker - Richard Hopkins,  Quantum computing</div>\n\t\t\t\t<div class="after0"> after party</div>\n\t\t\t</div>';
+		document.getElementsByClassName("changebutton")[0].innerHTML="day2";
+		document.getElementsByClassName("changebutton")[0].setAttribute( "onClick","day2()");
+	  }
+	  </script>
 	</head>
 	<body>
 			<div style="height:100px">
@@ -30,8 +42,8 @@
 		
 		<h1>Le Tour De Hack- agenda</h1>
 		<br>
-		<div style="width:50%; margin-right:auto; margin-left:auto;">
-			<div class="parent">
+		<div class="agendaTable" style="width:50%; margin-right:auto; margin-left:auto;">
+			<div class="confranceDay">
 				<div class="title0"> Time </div>
 				<div class="time2"> 9:00 </div>
 				<div class="time3"> 9:30 </div>
@@ -68,5 +80,6 @@
 				<div class="after0"> after party</div>
 			</div> 
 		</div>
+		<button class="changebutton" onclick="day2()">day2</button>
 </body>
 </html>
