@@ -231,12 +231,12 @@ display: grid;
 background: rgba(48,47,47, 0.5);
 color:white;
 grid-template-columns: 1fr repeat(2, 3fr);
-grid-template-rows: repeat(11, 1fr);
+grid-template-rows: repeat(19, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 border:1px solid black;
 }
-.time1 { grid-area: 1 / 1 / 2 / 2;  border:1px solid black;}
+.title0 { grid-area: 1 / 1 / 2 / 2;  border:1px solid black;}
 .time2 { grid-area: 2 / 1 / 3 / 2;  border:1px solid black;}
 .time3 { grid-area: 3 / 1 / 4 / 2;  border:1px solid black;}
 .time4 { grid-area: 4 / 1 / 5 / 2;  border:1px solid black;}
@@ -244,23 +244,30 @@ border:1px solid black;
 .time6 { grid-area: 6 / 1 / 7 / 2;  border:1px solid black;}
 .time7 { grid-area: 7 / 1 / 8 / 2;  border:1px solid black;}
 .time8 { grid-area: 8 / 1 / 9 / 2;  border:1px solid black;}
-.time8 { grid-area: 9 / 1 / 10 / 2;  border:1px solid black;}
-.time9 { grid-area: 10 / 1 / 11 / 2;  border:1px solid black;}
-.time10 { grid-area: 11 / 1 / 12 / 2;  border:1px solid black;}
-.time11 { grid-area: 12 / 1 / 13 / 2;  border:1px solid black;}
-.time12 { grid-area: 13 / 1 / 14 / 2;  border:1px solid black;}
+.time9 { grid-area: 9 / 1 / 10 / 2;  border:1px solid black;}
+.time10 { grid-area: 10 / 1 / 11 / 2;  border:1px solid black;}
+.time11 { grid-area: 11 / 1 / 12 / 2;  border:1px solid black;}
+.time12 { grid-area: 12 / 1 / 13 / 2;  border:1px solid black;}
+.time13 { grid-area: 13 / 1 / 14 / 2;  border:1px solid black;}
+.time14 { grid-area: 14 / 1 / 15 / 2;  border:1px solid black;}
+.time15 { grid-area: 15 / 1 / 16 / 2;  border:1px solid black;}
+.time16 { grid-area: 16 / 1 / 17 / 2;  border:1px solid black;}
+.time17 { grid-area: 17 / 1 / 18 / 2;  border:1px solid black;}
+.time18 { grid-area: 18 / 1 / 19 / 2;  border:1px solid black;}
+.time19 { grid-area: 19 / 1 / 20 / 2;  border:1px solid black;}
+.time20 { grid-area: 20 / 1 / 21 / 2;  border:1px solid black;}
 
-.div1 { grid-area: 1 / 2 / 2 / 3;  border:1px solid black;}
-.div2 { grid-area: 1 / 3 / 2 / 4; border:1px solid black;}
-.div3 { grid-area: 2 / 2 / 3 / 4; border:1px solid black;}
-.div4 { grid-area: 3 / 2 / 4 / 4; border:1px solid black;}
-.div5 { grid-area: 4 / 2 / 6 / 3; border:1px solid black;}
-.div6 { grid-area: 6 / 2 / 7 / 3; border:1px solid black;}
-.div7 { grid-area: 8 / 2 / 10 / 3; border:1px solid black;}
-.div7b { grid-area: 7 / 2 / 8 / 3; border:1px solid black;}
-.div8 { grid-area: 4 / 3 / 6 / 4; border:1px solid black;}
-.div8b { grid-area: 6 / 3 / 7 / 4; border:1px solid black;}
-.div9 { grid-area: 7 / 3 / 8 / 4; border:1px solid black;}
-.div10 { grid-area: 8 / 3 / 10 / 4; border:1px solid black;}
-.div11 { grid-area: 10 / 2 / 11 / 4; border:1px solid black;}
-.div12 { grid-area: 11 / 2 / 12 / 4; border:1px solid black;}
+.title1 { grid-area: 1 / 2 / 2 / 3;  border:1px solid black;}
+.title2 { grid-area: 1 / 3 / 2 / 4; border:1px solid black;}
+.before0 { grid-area: 2 / 2 / 3 / 4; border:1px solid black;}
+.keynote1 { grid-area: 3 / 2 / 5 / 4; border:1px solid black;}
+.talk1a { grid-area: 5 / 2 / 8 / 3; border:1px solid black;}
+.lunch1a { grid-area: 8 / 2 / 10 / 3; border:1px solid black;}
+.lunch1b { grid-area: 10 / 2 / 12 / 3; border:1px solid black;}
+.talk1b { grid-area: 12 / 2 / 16 / 3; border:1px solid black;}
+.talk2a { grid-area: 5 / 3 / 8 / 4; border:1px solid black;}
+.lunch2a { grid-area: 8 / 3 / 10 / 4; border:1px solid black;}
+.lunch2b { grid-area: 10 / 3 / 12 / 4; border:1px solid black;}
+.talk2b { grid-area: 12 / 3 / 16 / 4; border:1px solid black;}
+.keynote2 { grid-area: 16 / 2 / 18 / 4; border:1px solid black;}
+.after0 { grid-area: 18 / 2 / 20 / 4; border:1px solid black;}
