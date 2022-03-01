@@ -73,19 +73,6 @@ li span {
   padding: 0 .5rem;
 }
 
-@media all and (max-width: 768px) {
-  h1 {
-    font-size: calc(1.5rem * var(--smaller));
-  }
-  
-  li {
-    font-size: calc(1.125rem * var(--smaller));
-  }
-  
-  li span {
-    font-size: calc(3.375rem * var(--smaller));
-  }
-}
 
 
 
@@ -111,6 +98,30 @@ li span {
   text-decoration: none;
   font-size: 0.8em;
 }
+
+
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+  .nav {
+  width: 0%;
+}
+  .navbar-nav{
+	width: 0%;
+}
+}
+
+
+
 
 .nav a:hover {
   background: #ddd;
