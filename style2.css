@@ -99,6 +99,26 @@ a.visited {
 	color:#64B5F6;
 }
 
+@media all and (max-width: 768px) {
+  h1 {
+    font-size: calc(1.5rem * var(--smaller));
+  }
+  
+  li {
+    font-size: calc(1.125rem * var(--smaller));
+  }
+  
+  li span {
+    font-size: calc(3.375rem * var(--smaller));
+  }
+  .nav {
+  width: 0%;
+}
+  .navbar-nav{
+	width: 0%;
+}
+}
+
 .title0 { grid-area: 1 / 1 / 2 / 2;  border:1px solid black;}
 .title1 { grid-area: 1 / 2 / 2 / 3;  border:1px solid black;}
 .title2 { grid-area: 1 / 3 / 2 / 4; border:1px solid black;}
