@@ -20,7 +20,7 @@
   }
   //end
   
-  const countDown = new Date(birthday).getTime(),
+  const countDown = new Date(birthday + "09:00:00").getTime(),
       x = setInterval(function() {    
 
         const now = new Date().getTime(),
