@@ -121,7 +121,8 @@ a.visited {
 
 .title0 { grid-area: 1 / 1 / 2 / 2;  border:1px solid black;}
 .title1 { grid-area: 1 / 2 / 2 / 3;  border:1px solid black;}
-.title2 { grid-area: 1 / 3 / 2 / 4; border:1px solid black;}
+.title2 { grid-area: 1 / 3 / 2 / 5; border:1px solid black;}
+.title3 { grid-area: 1 / 5 / 2 / 6; border:1px solid black;}
 
 
 .time2 { grid-area: 2 / 1 / 3 / 2;  border:1px solid black;}
@@ -143,32 +144,66 @@ a.visited {
 .time18 { grid-area: 18 / 1 / 19 / 2;  border:1px solid black;}
 .time19 { grid-area: 19 / 1 / 20 / 2;  border:1px solid black;}
 .time20 { grid-area: 20 / 1 / 21 / 2;  border:1px solid black;}
+.time21 { grid-area: 21 / 1 / 22 / 2;  border:1px solid black;}
+.time22 { grid-area: 22 / 1 / 23 / 2;  border:1px solid black;}
+.time23 { grid-area: 23 / 1 / 24 / 2;  border:1px solid black;}
+.time24 { grid-area: 24 / 1 / 25 / 2;  border:1px solid black;}
+.time25 { grid-area: 25 / 1 / 26 / 2;  border:1px solid black;}
+.time26 { grid-area: 26 / 1 / 27 / 2;  border:1px solid black;}
+.time27 { grid-area: 27 / 1 / 28 / 2;  border:1px solid black;}
+.time28 { grid-area: 28 / 1 / 29 / 2;  border:1px solid black;}
+.time29 { grid-area: 29 / 1 / 30 / 2;  border:1px solid black;}
+.time30 { grid-area: 30 / 1 / 31 / 2;  border:1px solid black;}
+.time31 { grid-area: 31 / 1 / 32 / 2;  border:1px solid black;}
+.time32 { grid-area: 32 / 1 / 33 / 2;  border:1px solid black;}
+.time33 { grid-area: 33 / 1 / 34 / 2;  border:1px solid black;}
+.time34 { grid-area: 34 / 1 / 35 / 2;  border:1px solid black;}
+
 
 .confranceDay {
 display: grid;
 background: rgba(48,47,47, 0.5);
 color:white;
-grid-template-columns: 1fr repeat(2, 3fr);
-grid-template-rows: repeat(19, 1fr);
+grid-template-columns: 1fr 4fr 2fr 2fr 4fr;
+grid-template-rows: repeat(34, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
 border:1px solid black;
 }
 
 
-.before0 { grid-area: 2 / 2 / 3 / 4; border:1px solid black;}
-.keynote1 { grid-area: 3 / 2 / 5 / 4; border:1px solid black;}
-.keynote2 { grid-area: 16 / 2 / 18 / 4; border:1px solid black;}
-.after0 { grid-area: 18 / 2 / 20 / 4; border:1px solid black;}
+.before0 { grid-area: 2 / 2 / 4 / 6; border:1px solid black;}
+.keynote1 { grid-area: 4 / 2 / 8 / 6; border:1px solid black;}
+.keynote2 { grid-area: 30 / 2 / 34 / 6; border:1px solid black;}
+.after0 { grid-area: 34 / 2 / 35 / 6; border:1px solid black;}
 
-.talk1a { grid-area: 5 / 2 / 8 / 3; border:1px solid black;}
-.lunch1a { grid-area: 8 / 2 / 10 / 3; border:1px solid black;}
-.lunch1b { grid-area: 10 / 2 / 12 / 3; border:1px solid black;}
-.talk1b { grid-area: 12 / 2 / 16 / 3; border:1px solid black;}
-.talk2a { grid-area: 5 / 3 / 8 / 4; border:1px solid black;}
-.lunch2a { grid-area: 8 / 3 / 10 / 4; border:1px solid black;}
-.lunch2b { grid-area: 10 / 3 / 12 / 4; border:1px solid black;}
-.talk2b { grid-area: 12 / 3 / 16 / 4; border:1px solid black;}
+.talk1a { grid-area: 8 / 2 / 14 / 3; border:1px solid black;}
+	.talk1a45{ grid-area: 8 / 2 / 11 / 3; border:1px solid black;}
+	.talk1b45{ grid-area: 11 / 2 / 14 / 3; border:1px solid black;}
+.lunch1a { grid-area: 14 / 2 / 18 / 4; border:1px solid black;}
+.lunch1b { grid-area: 18 / 2 / 22 / 4; border:1px solid black;}
+.talk1b { grid-area: 22 / 2 / 30 / 3; border:1px solid black;}
+	.talk1c45 { grid-area: 22 / 2 / 26 / 3; border:1px solid black;}
+	.talk1d60 { grid-area: 26 / 2 / 30 / 3; border:1px solid black;}
+
+.talk2a { grid-area: 8 / 3 / 14 / 5; border:1px solid black;}
+	.talk2a45{ grid-area: 8 / 3 / 11 / 5; border:1px solid black;}
+	.talk2b45{ grid-area: 11 / 3 / 14 / 5; border:1px solid black;}
+.lunch2a { grid-area: 14 / 4 / 18 / 6; border:1px solid black;}
+.lunch2b { grid-area: 18 / 4 / 22 / 6; border:1px solid black;}
+.talk2b { grid-area: 22 / 3 / 30 / 5; border:1px solid black;}
+	.talk2c60{ grid-area: 22 / 3 / 26 / 5; border:1px solid black;}
+	.talk2d30{ grid-area: 26 / 3 / 28 / 5; border:1px solid black;}
+	.talk2e30{ grid-area: 28 / 3 / 30 / 5; border:1px solid black;}
+
+.talk3a { grid-area: 8 / 5 / 14 / 6; border:1px solid black;}
+	.talk3a45{ grid-area: 8 / 5 / 11 / 6; border:1px solid black;}
+	.talk3b45{ grid-area: 11 / 5 / 14 / 6; border:1px solid black;}
+.talk3b { grid-area: 22 / 5 / 30 / 6; border:1px solid black;}
+	.talk3c30{ grid-area: 22 / 5 / 24 / 6; border:1px solid black;}
+	.talk3d30{ grid-area: 24 / 5 / 26 / 6; border:1px solid black;}
+	.talk3e30{ grid-area: 26 / 5 / 28 / 6; border:1px solid black;}
+	.talk3f30{ grid-area: 28 / 5 / 30 / 6; border:1px solid black;}
 
 
 
